@@ -34,7 +34,7 @@ export default function Tabs() {
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
                 {posts.map((post) => (
                   <div
-                    key={post.id}
+                    key={post.title}
                     className="relative rounded-md  col-span-1 bg-[#181920]/60 ;
 "
                   >
